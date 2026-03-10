@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technocrats in Turmoil - Nicolas Jabko</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="translation-popup" class="popup-overlay">
+    <div class="popup-content">
+        <h2>Language / Langue</h2>
+        <p>Choose your preferred language / Choisissez votre langue.</p>
+        <div class="popup-buttons">
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('fr')">Français</button>
+        </div>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-content">
+        <span class="logo">Nicolas Jabko</span>
+        <div class="links">
+            <a href="#book" data-en="Book" data-fr="Livre">Livre</a>
+            <a href="#endorsements" data-en="Reviews" data-fr="Avis">Avis</a>
+            <a href="#author" data-en="Author" data-fr="Auteur">Auteur</a>
+            <a href="#" class="lang-toggle" onclick="toggleLang()" id="langBtn">EN</a>
+            <a href="https://www.cambridge.org/core/books/technocrats-in-turmoil/2A200F1C9F45CEC211825137100E977A" class="buy-btn" target="_blank" data-en="Buy" data-fr="Acheter">Acheter</a>
+        </div>
+    </div>
+</nav>
+
+<section id="book" class="hero">
+    <div class="hero-container">
+        <div class="book-cover">
+            <div class="cover-wrapper">
+                <img src="https://via.placeholder.com/320x480/2c3e9a/ffffff?text=COUVERTURE+ICI" alt="Technocrats in Turmoil Cover" class="book-image">
+                <div class="cover-fallback">
+                    <div class="fed-icon">🏛️</div>
+                    <h1>TECHNOCRATS<br>IN TURMOIL</h1>
+                    [span_0](start_span)<p class="author-name">JABKO[span_0](end_span)</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-text">
+            <span class="tagline" data-en="New from Cambridge University Press" data-fr="Nouveau chez Cambridge University Press">Nouveau chez Cambridge University Press</span>
+            <h2 data-en="The politics of money is changing." data-fr="La politique de la monnaie change.">La politique de la monnaie change.</h2>
+            [span_1](start_span)<p data-en="A compelling analysis showing how independent central bankers at the Fed and the ECB changed tactics dramatically after adopting neoliberal austerity." data-fr="Une analyse fascinante montrant comment les banquiers centraux de la Fed et de la BCE ont radicalement changé de tactique après avoir adopté l'austérité néolibérale.">Une analyse fascinante montrant comment les banquiers centraux de la Fed et de la BCE ont radicalement changé de tactique après avoir adopté l'austérité néolibérale.[span_1](end_span)</p>
+        </div>
+    </div>
+</section>
+
+<section id="endorsements" class="endorsements">
+    <div class="container">
+        <h3 data-en="Endorsements" data-fr="Témoignages">Témoignages</h3>
+        <div class="grid">
+            <div class="card">
+                [span_2](start_span)<p>"Monetary orthodoxies are not set in stone... A great book, a must-read."[span_2](end_span)</p>
+                [span_3](start_span)<span class="source">— Thomas Piketty, Paris School of Economics[span_3](end_span)</span>
+            </div>
+            <div class="card">
+                [span_4](start_span)<p>"A brilliant guide... Jabko reveals how every appearance of consensus masks fierce internal battles."[span_4](end_span)</p>
+                [span_5](start_span)<span class="source">— Quinn Slobodian, Boston University[span_5](end_span)</span>
+            </div>
+            <div class="card">
+                [span_6](start_span)<p>"A tour de force! Jabko tells the story through central bankers' internal deliberations."[span_6](end_span)</p>
+                [span_7](start_span)<span class="source">— Frank Dobbin, Harvard University[span_7](end_span)</span>
+            </div>
+            <div class="card">
+                [span_8](start_span)<p>"Insightful analysis... a must-read for scholars of political economy, history and economics."[span_8](end_span)</p>
+                [span_9](start_span)<span class="source">— Jacqueline Best, University of Ottawa[span_9](end_span)</span>
+            </div>
+            <div class="card">
+                [span_10](start_span)<p>"A path-breaking study that redefines neoliberalism and its change over time."[span_10](end_span)</p>
+                [span_11](start_span)<span class="source">— Christine Desan, Harvard Law School[span_11](end_span)</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="author" class="author">
+    <div class="container">
+        <div class="author-text">
+            <h3 data-en="About the Author" data-fr="À propos de l'auteur">À propos de l'auteur</h3>
+            [span_12](start_span)<p><strong>Nicolas Jabko</strong> <span data-en="is a professor of political science at Johns Hopkins University." data-fr="est professeur de sciences politiques à l'Université Johns Hopkins.">est professeur de sciences politiques à l'Université Johns Hopkins.[span_12](end_span)</span></p>
+            [span_13](start_span)<p data-en="A transatlantic scholar at heart, he has spent most of his life and career between the United States and Europe." data-fr="Chercheur transatlantique de cœur, il a passé la majeure partie de sa vie et de sa carrière entre les États-Unis et l'Europe.">Chercheur transatlantique de cœur, il a passé la majeure partie de sa vie et de sa carrière entre les États-Unis et l'Europe.[span_13](end_span)</p>
+            <a href="https://politicalscience.jhu.edu/directory/nicolas-jabko/" target="_blank" class="secondary-link" data-en="View Academic Profile →" data-fr="Voir le profil académique →">Voir le profil académique →</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Cambridge University Press | ISBN 978-1-009-72744-0</p>
+</footer>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
